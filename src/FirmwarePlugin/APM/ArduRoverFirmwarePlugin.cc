@@ -29,6 +29,7 @@ APMRoverMode::APMRoverMode(uint32_t mode, bool settable)
         {SMART_RTL,      "Smart RTL"},
         {GUIDED,         "Guided"},
         {INITIALIZING,   "Initializing"},
+        {MANUAL_REVERSE, "Manual Reverse"}
     });
 }
 
@@ -47,6 +48,7 @@ ArduRoverFirmwarePlugin::ArduRoverFirmwarePlugin(void)
         APMRoverMode(APMRoverMode::SMART_RTL    ,true),
         APMRoverMode(APMRoverMode::GUIDED       ,true),
         APMRoverMode(APMRoverMode::INITIALIZING ,false),
+        APMRoverMode(APMRoverMode::MANUAL_REVERSE,true),
     });
 
     if (!_remapParamNameIntialized) {
