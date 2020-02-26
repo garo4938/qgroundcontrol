@@ -25,6 +25,7 @@
 <value code="10">AUTO</value>
 <value code="11">RTL</value>
 <value code="15">GUIDED</value>
+<value code="25">Manual_Reverse</value>
 </values>
 </param>
 <param humanName="MAVLink system ID of this vehicle" name="APMrover2:SYSID_THIS_MAV" documentation="Allows setting an individual MAVLink system id for this vehicle to distinguish it from others on the same network" user="Advanced">
@@ -106,6 +107,7 @@
 <value code="10">SmartRTL</value>
 <value code="11">Guided</value>
 <value code="12">Loiter</value>
+<value code="25">Manual_Reverse</value>
 </values>
 </param>
 <param humanName="Base throttle percentage in auto" name="APMrover2:CRUISE_THROTTLE" documentation="The base throttle percentage to use in auto mode. The CRUISE_SPEED parameter controls the target speed, but the rover starts with the CRUISE_THROTTLE setting as the initial estimate for how much throttle is needed to achieve that speed. It then adjusts the throttle based on how fast the rover is actually going." user="Standard">
@@ -195,6 +197,7 @@
 <value code="11">RTL</value>
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
+<value code="25">Manual_Reverse</value>
 </values>
 </param>
 <param humanName="Mode2" name="APMrover2:MODE2" documentation="Driving mode for switch position 2 (1231 to 1360)" user="Standard">
@@ -208,6 +211,7 @@
 <value code="11">RTL</value>
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
+<value code="25">Manual_Reverse</value>
 </values>
 </param>
 <param humanName="Mode3" name="APMrover2:MODE3" documentation="Driving mode for switch position 3 (1361 to 1490)" user="Standard">
@@ -221,6 +225,7 @@
 <value code="11">RTL</value>
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
+<value code="25">Manual_Reverse</value>
 </values>
 </param>
 <param humanName="Mode4" name="APMrover2:MODE4" documentation="Driving mode for switch position 4 (1491 to 1620)" user="Standard">
@@ -234,6 +239,7 @@
 <value code="11">RTL</value>
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
+<value code="25">Manual_Reverse</value>
 </values>
 </param>
 <param humanName="Mode5" name="APMrover2:MODE5" documentation="Driving mode for switch position 5 (1621 to 1749)" user="Standard">
@@ -247,6 +253,7 @@
 <value code="11">RTL</value>
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
+<value code="25">Manual_Reverse</value>
 </values>
 </param>
 <param humanName="Mode6" name="APMrover2:MODE6" documentation="Driving mode for switch position 6 (1750 to 2049)" user="Standard">
@@ -260,6 +267,7 @@
 <value code="11">RTL</value>
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
+<value code="25">Manual_Reverse</value>
 </values>
 </param>
 <param humanName="Waypoint radius" name="APMrover2:WP_RADIUS" documentation="The distance in meters from a waypoint when we consider the waypoint has been reached. This determines when the rover will turn along the next waypoint path." user="Standard">
