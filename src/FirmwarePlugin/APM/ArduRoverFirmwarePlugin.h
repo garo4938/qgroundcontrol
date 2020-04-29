@@ -32,7 +32,8 @@ public:
         SMART_RTL       = 12,
         GUIDED          = 15,
         INITIALIZING    = 16,
-        MANUAL_REVERSE  = 25
+        MANUAL_REVERSE  = 25,
+        REVERSE_ASSIST  = 26
     };
 
     APMRoverMode(uint32_t mode, bool settable);
