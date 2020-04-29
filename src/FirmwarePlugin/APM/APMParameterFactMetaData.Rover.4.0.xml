@@ -28,6 +28,7 @@
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
 <value code="25">Manual_Reverse</value>
+<value code="26">Reverse_Assist</value>
 </values>
 </param>
 <param humanName="MAVLink system ID of this vehicle" name="APMrover2:SYSID_THIS_MAV" documentation="Allows setting an individual MAVLink system id for this vehicle to distinguish it from others on the same network" user="Advanced">
@@ -165,6 +166,7 @@
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
 <value code="25">Manual_Reverse</value>
+<value code="26">Reverse_Assist</value>
 </values>
 </param>
 <param humanName="Mode2" name="APMrover2:MODE2" documentation="Driving mode for switch position 2 (1231 to 1360)" user="Standard">
@@ -181,6 +183,7 @@
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
 <value code="25">Manual_Reverse</value>
+<value code="26">Reverse_Assist</value>
 </values>
 </param>
 <param humanName="Mode3" name="APMrover2:MODE3" documentation="Driving mode for switch position 3 (1361 to 1490)" user="Standard">
@@ -197,6 +200,7 @@
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
 <value code="25">Manual_Reverse</value>
+<value code="26">Reverse_Assist</value>
 </values>
 </param>
 <param humanName="Mode4" name="APMrover2:MODE4" documentation="Driving mode for switch position 4 (1491 to 1620)" user="Standard">
@@ -213,6 +217,7 @@
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
 <value code="25">Manual_Reverse</value>
+<value code="26">Reverse_Assist</value>
 </values>
 </param>
 <param humanName="Mode5" name="APMrover2:MODE5" documentation="Driving mode for switch position 5 (1621 to 1749)" user="Standard">
@@ -229,6 +234,7 @@
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
 <value code="25">Manual_Reverse</value>
+<value code="26">Reverse_Assist</value>
 </values>
 </param>
 <param humanName="Mode6" name="APMrover2:MODE6" documentation="Driving mode for switch position 6 (1750 to 2049)" user="Standard">
@@ -245,6 +251,7 @@
 <value code="12">SmartRTL</value>
 <value code="15">Guided</value>
 <value code="25">Manual_Reverse</value>
+<value code="26">Reverse_Assist</value>
 </values>
 </param>
 <param humanName="Turning maximum G force" name="APMrover2:TURN_MAX_G" documentation="The maximum turning acceleration (in units of gravities) that the rover can handle while remaining stable. The navigation code will keep the lateral acceleration below this level to avoid rolling over or slipping the wheels in turns" user="Standard">
@@ -370,6 +377,7 @@
 <value code="11">Guided</value>
 <value code="12">Loiter</value>
 <value code="25">Manual_Reverse</value>
+<value code="26">Reverse_Assist</value>
 </values>
 </param>
 <param humanName="Auxiliary switch channel" name="APMrover2:AUX_CH" documentation="RC Channel to use for auxiliary functions including saving waypoints" user="Advanced">
